@@ -13,7 +13,7 @@ To run this project on your machine you need to install any SQL supported DBMS t
 
 ## Schema Diagram
 
-![MusicDatabaseSchema.png](https://github.com/avishek09/Music-Store-Analysis/blob/main/MusicDatabaseSchema.png)
+![MusicDatabaseSchema.png](https://user-images.githubusercontent.com/112153548/213707717-bfc9f479-52d9-407b-99e1-e94db7ae10a3.png)
 
 <!-- ## Usage
 
