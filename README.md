@@ -8,8 +8,8 @@ This project uses SQL to analyze the data set of an online music store. The goal
 
 To run this project on your machine you need to install any SQL supported DBMS then follow the steps below:
 1. Create a database.
-2. Create tables using the schema diagram provided.
-3. Import csv files provided in the dataset folder.
+2. Create tables using the schema diagram provided below.
+3. Import csv files provided from the dataset folder.
 
 ## Schema Diagram
 
