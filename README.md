@@ -1,8 +1,8 @@
-# SQL Project Music Store Analysis
+# SQL Project: Music Store Analysis
 
 ## Description
 
-This project uses SQL to analyze the data set of an online music store. The goal of the project is to answer a set of questions about the store's business performance.
+This project uses SQL to analyze the data set of an online music store. The goal of the project is to answer a set of questions about the store's business performance and help in it's growth by making better decisions.
 
 ## Installation
 
@@ -10,6 +10,8 @@ To run this project on your machine you need to install any SQL supported DBMS t
 1. Create a database.
 2. Create tables using the schema diagram provided below.
 3. Import csv files provided from the dataset folder.
+
+Note: If you are using postgresql then restore the backup file of database and save yourself some time.
 
 ## Schema Diagram
 
@@ -45,9 +47,9 @@ You can use this dataset to build your own project and practise your SQL skills.
 ![postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 
-## How to Contribute
+<!--## How to Contribute
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.-->
 
 <!-- ## Questions Answered
 
