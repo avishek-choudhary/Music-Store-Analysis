@@ -4,15 +4,6 @@
 
 This project uses SQL to analyze the data set of an online music store. The goal of the project is to answer a set of questions about the store's business performance.
 
-SQL project to analyze online music store data.
-To learn more about SQL queries, table joins, common table expressions and window functions.
-In this project I analysed the data of a Music Store to answer some questions for it's business growth.
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
 ## Installation
 
 To run this project on your machine you need to install any SQL supported DBMS then follow the steps below:
@@ -23,7 +14,7 @@ To run this project on your machine you need to install any SQL supported DBMS t
 ## Schema Diagram
 
     ```md
-        ![schema](MusicDatabaseSchema.png)
+        ![MusicDatabaseSchema.png](https://github.com/avishek09/Music-Store-Analysis/blob/main/MusicDatabaseSchema.png)
         ```
 
 <!-- ## Usage
@@ -57,18 +48,9 @@ The last section of a high-quality README file is the license. This lets other d
 
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
 ## How to Contribute
 
 If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
-
-Sure, here is a professional looking README file for your project:
-
 
 <!-- ## Questions Answered
 
