@@ -27,14 +27,14 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ![schema](MusicDatabaseSchema.png)
     ``` -->
 
-## Credits
-
-This project was created by following this tutorial: https://youtu.be/VFIuIjswMKM
-
 ## Database and Tools
 
 * Postgre SQL
 * PgAdmin4
+
+## Credits
+
+This project was created by following this tutorial: https://youtu.be/VFIuIjswMKM
 
 ## License
 
