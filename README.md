@@ -36,11 +36,9 @@ This project was created by following this tutorial: https://youtu.be/VFIuIjswMK
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+You can use this dataset to build your own project and practise your SQL skills.
 
 ---
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
 ## Badges
 
