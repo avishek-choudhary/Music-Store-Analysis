@@ -46,6 +46,10 @@ You can use this dataset to build your own project and practise your SQL skills.
 
 ![postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
+## Conclusion
+
+The project was successful in answering the set of questions about the store's business performance. The results of the project can be used by the store to make decisions about its marketing and product offerings.
+
 
 <!--## How to Contribute
 
