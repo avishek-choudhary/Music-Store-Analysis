@@ -15,7 +15,7 @@ Note: If you are using postgresql then restore the backup file of database and s
 
 ## Schema Diagram
 
-![MusicDatabaseSchema.png](https://user-images.githubusercontent.com/112153548/213707717-bfc9f479-52d9-407b-99e1-e94db7ae10a3.png)
+![Schema Diagram](https://github.com/avishek09/Music-Store-Analysis/assets/75924699/993e1d5d-0ae0-4034-9e20-202a2916c84c)
 
 <!-- ## Usage
 
