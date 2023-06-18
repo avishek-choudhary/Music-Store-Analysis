@@ -75,7 +75,7 @@ The data set used for this project is available on GitHub. The data set contains
 The results of the project are as follows:
 
 * The most popular genre of music is pop.
-* The most popular artist is Taylor Swift.
+* The most popular artist is Queens.
 * The most popular song is "Despacito" by Luis Fonsi and Daddy Yankee.
 * The average price of an album is $10.
 * The most popular country for music purchases is the United States.
