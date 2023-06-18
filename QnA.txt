@@ -117,3 +117,13 @@ WITH customer_with_country AS
 SELECT customer_id, first_name, last_name, billing_country, total_spent
 FROM customer_with_country
 WHERE row_num = 1;
+
+-- Who are the most popular artists?
+
+SELECT COUNT(INVOICE_LINE.QUANTITY) AS PURCHASES, ARTIST.NAME 
+FROM INVOICE_LINE
+JOIN track ON track.track_id = invoice_line.track_id
+JOIN ALBUM ON ALBUM.ALBUM_ID = TRACK.ALBUM_ID
+JOIN ARTIST ON ARTIST.ARTIST_ID = ALBUM.ARTIST_ID
+GROUP BY 2
+ORDER BY 1 DESC
