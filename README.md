@@ -49,7 +49,7 @@ You can use this dataset to build your own project and practise your SQL skills.
 
 ## Questions Answered
 
-The following are few of the questions that are answered by the project (check out QnA.txt file for the rest):
+The following are few of the questions that are answered by the project (check out <a href="https://github.com/avishek09/Music-Store-Analysis/blob/main/QnA.txt">QnA.txt</a> file for the rest):
 
 * What are the most popular genres of music?
 * What are the most popular artists?
