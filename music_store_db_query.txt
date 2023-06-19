@@ -158,66 +158,77 @@ WITH (
 ALTER TABLE public.album
     ADD FOREIGN KEY (artist_id)
     REFERENCES public.artist (artist_id)
+    ON DELETE CASCADE
     NOT VALID;
 
 
 ALTER TABLE public.customer
     ADD FOREIGN KEY (support_rep_id)
     REFERENCES public.employee (employee_id)
+    ON DELETE CASCADE
     NOT VALID;
 
 
 ALTER TABLE public.employee
     ADD FOREIGN KEY (reports_to)
     REFERENCES public.employee (employee_id)
+    ON DELETE CASCADE
     NOT VALID;
 
 
 ALTER TABLE public.invoice
     ADD FOREIGN KEY (customer_id)
     REFERENCES public.customer (customer_id)
+    ON DELETE CASCADE
     NOT VALID;
 
 
 ALTER TABLE public.invoice_line
     ADD FOREIGN KEY (invoice_id)
     REFERENCES public.invoice (invoice_id)
+    ON DELETE CASCADE
     NOT VALID;
 
 
 ALTER TABLE public.invoice_line
     ADD FOREIGN KEY (track_id)
     REFERENCES public.track (track_id)
+    ON DELETE CASCADE
     NOT VALID;
 
 
 ALTER TABLE public.playlist_track
     ADD FOREIGN KEY (playlist_id)
     REFERENCES public.playlist (playlist_id)
+    ON DELETE CASCADE
     NOT VALID;
 
 
 ALTER TABLE public.playlist_track
     ADD FOREIGN KEY (track_id)
     REFERENCES public.track (track_id)
+    ON DELETE CASCADE
     NOT VALID;
 
 
 ALTER TABLE public.track
     ADD FOREIGN KEY (album_id)
     REFERENCES public.album (album_id)
+    ON DELETE CASCADE
     NOT VALID;
 
 
 ALTER TABLE public.track
     ADD FOREIGN KEY (genre_id)
     REFERENCES public.genre (genre_id)
+    ON DELETE CASCADE
     NOT VALID;
 
 
 ALTER TABLE public.track
     ADD FOREIGN KEY (media_type_id)
     REFERENCES public.media_type (media_type_id)
+    ON DELETE CASCADE
     NOT VALID;
 
 END;
