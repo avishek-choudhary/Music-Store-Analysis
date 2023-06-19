@@ -118,12 +118,43 @@ SELECT customer_id, first_name, last_name, billing_country, total_spent
 FROM customer_with_country
 WHERE row_num = 1;
 
--- Who are the most popular artists?
+Q12. Who are the most popular artists?
 
-SELECT COUNT(INVOICE_LINE.QUANTITY) AS PURCHASES, ARTIST.NAME 
-FROM INVOICE_LINE
+SELECT COUNT(invoice_line.quantity) AS purchases, artist.name AS artist_name
+FROM invoice_line 
 JOIN track ON track.track_id = invoice_line.track_id
-JOIN ALBUM ON ALBUM.ALBUM_ID = TRACK.ALBUM_ID
-JOIN ARTIST ON ARTIST.ARTIST_ID = ALBUM.ARTIST_ID
+JOIN album ON album.album_id = track.album_id
+JOIN artist ON artist.artist_id = album.artist_id
 GROUP BY 2
-ORDER BY 1 DESC
+ORDER BY 1 DESC;
+
+Q13. Which is the most popular song?
+
+SELECT COUNT(invoice_line.quantity) AS purchases, track.name AS song_name
+FROM invoice_line 
+JOIN track ON track.track_id = invoice_line.track_id
+GROUP BY 2
+ORDER BY 1 DESC;
+
+Q14. What are the average prices of different types of music?
+
+WITH purchases AS
+	(SELECT genre.name AS genre, SUM(total) AS total_spent
+	FROM invoice
+	JOIN invoice_line ON invoice.invoice_id = invoice_line.invoice_id
+	JOIN track ON track.track_id = invoice_line.track_id
+	JOIN genre ON genre.genre_id = track.genre_id
+	GROUP BY 1
+	ORDER BY 2)
+SELECT genre, CONCAT('$', ROUND(AVG(total_spent))) AS total_spent
+FROM purchases
+GROUP BY genre;
+
+Q15. What are the most popular countries for music purchases?
+
+SELECT COUNT(invoice_line.quantity) AS purchases, customer.country
+FROM invoice_line 
+JOIN invoice ON invoice.invoice_id = invoice_line.invoice_id
+JOIN customer ON customer.customer_id = invoice.customer_id
+GROUP BY country
+ORDER BY purchases DESC;
