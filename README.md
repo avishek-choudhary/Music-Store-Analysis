@@ -34,7 +34,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-Throughout the development of this project, I have sought inspiration from this pivotal video source: https://youtu.be/VFIuIjswMKM
+Throughout the development of this project, I have sought inspiration from a pivotal video source: https://youtu.be/VFIuIjswMKM
 
 ## License
 
