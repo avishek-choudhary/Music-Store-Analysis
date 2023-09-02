@@ -1,5 +1,7 @@
 # SQL Project: Music Store Analysis
 
+Read the full detailed article <a href="https://avishek-choudhary.github.io/projects/Music%20Store.html">here</a>.
+
 ## Description
 
 This project uses SQL to analyze the dataset of an online music store. The goal of the project is to answer a set of questions about the store's business performance and help in its growth by making better decisions.
